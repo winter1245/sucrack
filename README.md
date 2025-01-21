@@ -13,27 +13,15 @@ Otherwise an attack is not realistic.
   
 ## Installation
 
-#### pip
+#### pipx
 ```sh
-  pip install pexpect 
-  git clone https://github.com/winter1245/sucrack
-  cd sucrack
-  python3 sucrack.py user 2
-```
-
-#### arch
-
-```sh
-  pacman -S python-pexpect
-  git clone https://github.com/winter1245/sucrack
-  cd sucrack
-  python3 sucrack.py user 2 wordlist.txt
+  pipx install git+https://github.com/winter1245/sucrack
 ```
 
 #### Syntax
 
 ```sh
-  python3 sucrack.py [user to attack] [ratelimit float] [optional wordlistpath]
+  sucrack.py [user to attack] [ratelimit float] [optional wordlistpath]
 ```
 
 
