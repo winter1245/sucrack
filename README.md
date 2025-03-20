@@ -1,6 +1,8 @@
 # sucrack
 Bruteforce password of local linux user via su for priviledge escalation
 
+Make sure you have proper authorisation before doing any testing.
+
 
 ## Usage
 This Script makes repeated login attempts to a user with the su command.
